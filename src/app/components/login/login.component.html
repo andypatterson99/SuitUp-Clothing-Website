@@ -1,0 +1,33 @@
+<div class="container">
+
+    <h2 class="text-center" style="margin-top:70px">Good Day To You!</h2>
+    <div class="row">
+        <div class="col-md4-4 offset-md-4 vertical">
+    
+            <div class="card-body">   
+    <form #loginForm="ngForm" (ngSubmit)="loginForm.valid && login()">
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input id="username" class="form-control" name="username" #username="ngModel" [(ngModel)]="model.username" required />
+            <span class="error" *ngIf ="username.invalid && username.touched">Username is required</span>
+        </div>
+    
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" class="form-control" name="password" #password="ngModel" [(ngModel)]="model.password" required />
+            <span class="error" *ngIf ="password.invalid && password.touched">Password is required</span>
+        </div>
+    
+        <div class="form-group">
+            <input type="checkbox" id="remember" name="remember" #remember="ngModel" [(ngModel)]="model.remember">
+            <label class="ml-2" for="remember">Keep me logged in</label>
+        </div>
+    
+            
+                <button type="submit" class="btn-special" [disabled]="loginForm.invalid">Login</button>
+            </form>
+            </div>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,15 @@
+<div *ngIf="cartItems.length === 0"class="alert-info">Your cart is empty.</div>
+
+<ul *ngIf="cartItems.length > 0 " class="list-group cartstyle">
+    <li class="list-item" *ngFor="let item of cartItems">
+        <app-cart-item [cartItem]="item" ></app-cart-item>
+        <button class="btn">Remove <i class="glyphicon glyphicon-remove"></i></button>
+        
+        
+    </li>
+    
+
+    <div class="totalcost boxed">
+        <strong>Total: {{ cartTotal | currency:'&euro;'}}  </strong>
+    </div>
+</ul>

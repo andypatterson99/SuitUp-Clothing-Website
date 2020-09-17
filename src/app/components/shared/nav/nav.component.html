@@ -1,0 +1,52 @@
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+</head>
+
+  <button class="btn"><i class="fa fa-map-marker" style="font-size:20px"></i></button>
+  <button class="btn"><i class="fa fa-phone" style="font-size:20px"></i></button>
+  <button class="btn"><i class="fa fa-search" style="font-size:20px"></i></button>
+
+  <button [routerLink]="['/register']" class="btn left-btn"><i class="fa fa-user-circle-o" style="font-size:20px">
+    <small>Account</small></i></button>
+  <button class="btn "><i class="fa fa-bell-o" style="font-size:20px"> <small>Notification</small></i></button>
+  <button class="btn"><i class="fa fa-heart" style="font-size:20px"> <small>Favorite</small></i></button>
+  <button class="btn "><i class="fa fa-shopping-basket" style="font-size:20px"> <small>Cart</small></i></button>
+
+  <div class="container">
+    <a [routerLink]="['/home']">
+      <div class="logo"><img src="assets/PaterLogo.png" alt="Logo"style="height:300px; width: 300px;"></div>
+    </a>
+   <br>
+  </div>
+
+<div class="topnav align-items-center p-3 px-md-0">    
+    
+   <ul>
+ <a routerLink="/shop">
+   <li><a style="margin-left: 570px;">SuitUp!</a></li> 
+ </a>   
+  <a routerLink="autumn">
+    <li><a  href="">Autumn</a></li>
+  </a>
+  <a routerLink="summer">
+    <li><a  href="">Summer</a></li>
+  </a>
+  <a routerLink="clothes">
+    <li><a href="">Spring</a></li>
+  </a>
+  <a routerLink="winter">
+    <li><a href="">Winter</a></li>
+  </a>
+
+ 
+</ul>
+
+<app-header></app-header>
+  
+  </div>
+
+  

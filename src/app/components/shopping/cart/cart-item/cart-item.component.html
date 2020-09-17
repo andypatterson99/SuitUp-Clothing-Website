@@ -1,0 +1,11 @@
+<div class="cart-item">
+    <span>{{ cartItem.productName }}</span> -
+    <span>{{ cartItem.qty }}</span> 
+    <span *ngIf=" cartItem.qty == 1 "> Item</span>
+    <span *ngIf=" cartItem.qty > 1 "> Items</span>
+    
+    <br>
+   
+    <strong class="euro">{{ (cartItem.qty * cartItem.price) | currency:'&euro; ' }}</strong>
+    
+</div>

@@ -1,0 +1,82 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Full Light Brow Suit",
+      "description": "its elegant and sexeyh, Go Ahead and buy buy buy buy.The ladies awaits you. So be prepared!",
+      "imageUrl": "https://i.pinimg.com/236x/86/21/a5/8621a5901de8e75080d45c8942e90809.jpg",
+      "price": 299
+    },
+    {
+      "id": 2,
+      "name": "Upper-Class Suit&Vest",
+      "description": "A talented tailor you look pretty good thing you can turn off the shelf into the main team, but the fact that you will never be able to achieve the level of sensitivity that you would have done with the appropriate special suit.",
+      "imageUrl": "https://ae01.alicdn.com/kf/Hec8138642b4f42dba57a38d385095077S/2019-Latest-Coat-Pant-Designs-Dark-Grey-Tweed-Suit-Men-Slim-Fit-Formal-Wedding-Suits-For.jpg",
+      "price": 200
+    },
+    {
+      "id": 3,
+      "name": "Casual Black-Suit Coat",
+      "description": "Custom men suits just to look his best may be a little confusing for the average person is very different materials. Quality tailors will be enough to make your head spin choices, but if you want to dress correctly, this is actually a good thing.",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQBwq7XMK80iacGxHSQTDCFye0Gvz0KKSiXIQ&usqp=CAU",
+      "price": 150
+    },
+    {
+      "id": 4,
+      "name": "Casual Slim-Fit Coat",
+      "description": "Custom men suits you patterned lining custom buttons, never allows you to uncover every detail you want. All of these options can be quite overwhelming to the average man.",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSLW10n9MJ2_-Kl2Tn2G6koOqF3o0n07pddmw&usqp=CAU",
+      "price": 399
+    }
+  ],
+  "wishlist": [],
+  "cart": [
+    {
+      "product": {
+        "id": 2,
+        "name": "Upper-Class Suit&Vest",
+        "description": "A talented tailor you look pretty good thing you can turn off the shelf into the main team, but the fact that you will never be able to achieve the level of sensitivity that you would have done with the appropriate special suit.",
+        "imageUrl": "https://ae01.alicdn.com/kf/Hec8138642b4f42dba57a38d385095077S/2019-Latest-Coat-Pant-Designs-Dark-Grey-Tweed-Suit-Men-Slim-Fit-Formal-Wedding-Suits-For.jpg",
+        "price": 200
+      },
+      "id": 1
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Full Light Brow Suit",
+        "description": "its elegant and sexeyh",
+        "imageUrl": "https://i.pinimg.com/originals/e4/fd/76/e4fd7679bd25dd5f46c1f3958d90635e.jpg",
+        "price": 299
+      },
+      "id": 2
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Full Light Brow Suit",
+        "description": "its elegant and sexeyh",
+        "imageUrl": "https://i.pinimg.com/originals/e4/fd/76/e4fd7679bd25dd5f46c1f3958d90635e.jpg",
+        "price": 299
+      },
+      "id": 3
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
